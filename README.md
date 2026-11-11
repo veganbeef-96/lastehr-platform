@@ -6,6 +6,8 @@ An experiment in putting an AI assistant in front of electronic health record (E
 >
 > Use synthetic data only. This is not medical software and must not be used for patient care.
 
+**It reads the chart broadly.** 25 of [US Core 9.0.0](https://hl7.org/fhir/us/core/)'s 27 readable resource types, across 23 patient-scoped sections, following references so authors, encounters, and provenance stop being dead pointers. The coverage page lists the ceiling and what is not yet readable: [docs/fhir-coverage.md](./docs/fhir-coverage.md).
+
 ## Architecture
 
 ```
